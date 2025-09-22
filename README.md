@@ -1,4 +1,24 @@
 ### Call-center-Trends-Analysis---Power-BI-project
+### Project Introduction
+
+This project focuses on analyzing call center performance using Power BI. A raw call center dataset was imported, transformed, and cleaned to ensure accuracy and consistency. Data types for all columns were verified, and a new DateTime column was created by combining the existing Date and Time fields, enabling more precise time-based analysis.
+
+To gain deeper insights into call center operations, several DAX measures were created, including:
+
+Total Calls to track overall call volume.
+
+Calls Resolved / Not Resolved to measure service effectiveness.
+
+Calls Answered vs. Not Answered for operational efficiency.
+
+Average Talk Duration and Response Time to evaluate service speed.
+
+Calls Resolved % and Satisfaction Ratio to assess customer experience.
+
+Number of Calls per Hour to identify peak activity periods.
+
+By combining these KPIs, the dashboard provides a comprehensive view of call center performance, highlighting efficiency, responsiveness, and customer satisfaction. This enables data-driven decision-making to improve overall service quality and optimize resource allocation.
+
 Import Call center Data set to Power BI
 Transform and clean the data - Check all the columns and their data types. 
 Add a custom column DateTime by combining the two column Date and Time    
