@@ -17,3 +17,4 @@ sumsat = sum('Call-Center-Dataset'[Satisfaction rating])
 TotalcallsAnswered = calculate(count('Call-Center-Dataset'[Call ID]),'Call-Center-Dataset'[Answered (Y/N)]="Y")   
 Totaltalkduration = sum('Call-Center-Dataset'[Talkduration])
 
+![img alt](https://github.com/nsankareswari-70/Call-center-Trends-Analysis---Power-BI-project/blob/8feb68c9a8710658255e539a7cc693ce17c0ea75/calla1.png)
