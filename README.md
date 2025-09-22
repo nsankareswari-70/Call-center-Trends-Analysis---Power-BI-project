@@ -35,6 +35,6 @@ SatRatio = divide([sumsat],count('Call-Center-Dataset'[Satisfaction rating])*5,0
 SumofHour = sum('Call-Center-Dataset'[Hour])   
 sumsat = sum('Call-Center-Dataset'[Satisfaction rating])    
 TotalcallsAnswered = calculate(count('Call-Center-Dataset'[Call ID]),'Call-Center-Dataset'[Answered (Y/N)]="Y")   
-Totaltalkduration = sum('Call-Center-Dataset'[Talkduration])
+Totaltalkduration = sum('Call-Center-Dataset'[Talkduration])    
 Here is the screenshot of the Dashboard. For more details and to experience the interactive view, please check out my CallCenterTrendAnalysis.pbix file.
 ![img alt](https://github.com/nsankareswari-70/Call-center-Trends-Analysis---Power-BI-project/blob/8feb68c9a8710658255e539a7cc693ce17c0ea75/calla1.png)
